@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\seleniumgrid\Autotests\Autotests\.metadata\.plugins\org.eclipse.jdt.core
