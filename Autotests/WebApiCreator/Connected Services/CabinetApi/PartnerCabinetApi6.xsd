@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Model.Countries.KZ" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Model.Countries.KZ" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="IndividualInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Birth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BirthPlace" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IIN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdentityCardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssuedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssuedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ValidTill" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IndividualInfo" nillable="true" type="tns:IndividualInfo" />
+  <xs:complexType name="LegalInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RegistryCertificateDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RegistryCertificateNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegistryCertificateSeries" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LegalInfo" nillable="true" type="tns:LegalInfo" />
+</xs:schema>

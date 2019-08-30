@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autotests", "Autotests\Autotests.csproj", "{66CFFDA7-2DA2-4B70-B616-974391867C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Browser\Core.csproj", "{D4175EAC-56D3-4A50-B720-D27E8EC89680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebElemenet", "WebElemenet\WebElemenet.csproj", "{9BC8F746-299A-43AA-8E1D-00118266DA1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerHelper", "LoggerHelper\LoggerHelper.csproj", "{C4A4D7EE-9FB3-4E2C-AC9D-FD34BE561715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPage", "WebPage\WebPage.csproj", "{A193A1A6-1B75-42FF-B5E3-FF7785E877F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A78AD0F-3B01-48F0-ADA5-D28876406ED5}"
+	ProjectSection(SolutionItems) = preProject
+		ShopBatch\Shops.xsd = ShopBatch\Shops.xsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAutotests", "ApiAutotests\ApiAutotests.csproj", "{E2700C14-A70B-48C2-A49D-93C8DF1F0AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66CFFDA7-2DA2-4B70-B616-974391867C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CFFDA7-2DA2-4B70-B616-974391867C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CFFDA7-2DA2-4B70-B616-974391867C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CFFDA7-2DA2-4B70-B616-974391867C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4175EAC-56D3-4A50-B720-D27E8EC89680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4175EAC-56D3-4A50-B720-D27E8EC89680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4175EAC-56D3-4A50-B720-D27E8EC89680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4175EAC-56D3-4A50-B720-D27E8EC89680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC8F746-299A-43AA-8E1D-00118266DA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC8F746-299A-43AA-8E1D-00118266DA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC8F746-299A-43AA-8E1D-00118266DA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC8F746-299A-43AA-8E1D-00118266DA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A4D7EE-9FB3-4E2C-AC9D-FD34BE561715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A4D7EE-9FB3-4E2C-AC9D-FD34BE561715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A4D7EE-9FB3-4E2C-AC9D-FD34BE561715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A4D7EE-9FB3-4E2C-AC9D-FD34BE561715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A193A1A6-1B75-42FF-B5E3-FF7785E877F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A193A1A6-1B75-42FF-B5E3-FF7785E877F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A193A1A6-1B75-42FF-B5E3-FF7785E877F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A193A1A6-1B75-42FF-B5E3-FF7785E877F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2700C14-A70B-48C2-A49D-93C8DF1F0AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2700C14-A70B-48C2-A49D-93C8DF1F0AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2700C14-A70B-48C2-A49D-93C8DF1F0AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2700C14-A70B-48C2-A49D-93C8DF1F0AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49F9010F-E19D-4164-BF1D-E55178C5D15F}
+	EndGlobalSection
+EndGlobal

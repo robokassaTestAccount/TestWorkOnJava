@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://cabinetapi.test.qa/PartnerCabinetApi.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" />
+  <xs:element name="CreatePartner">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q1:CreatePartnerRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreatePartnerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CreatePartnerResult" nillable="true" type="q2:CreatePartnerResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateOutAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q3:CreateOutAccountRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateOutAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CreateOutAccountResult" nillable="true" type="q4:CreateOutAccountResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PartnerContactSave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q5:PartnerContactSaveRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PartnerContactSaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="PartnerContactSaveResult" nillable="true" type="q6:PartnerContactSaveResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateShop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q7:CreateShopRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateShopResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CreateShopResult" nillable="true" type="q8:CreateShopResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CommonProfileGroupSave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q9:CommonProfileGroupSaveRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CommonProfileGroupSaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CommonProfileGroupSaveResult" nillable="true" type="q10:CommonProfileGroupSaveResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SettingsProfileGroupSave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q11:SettingsProfileGroupSaveRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SettingsProfileGroupSaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="SettingsProfileGroupSaveResult" nillable="true" type="q12:SettingsProfileGroupSaveResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateActivationRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q13:CreateActivationRequestRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateActivationRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CreateActivationRequestResult" nillable="true" type="q14:CreateActivationRequestResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendSms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q15:SendSmsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendSmsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="SendSmsResult" nillable="true" type="q16:SendSmsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckPartnerIdentifierExists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q17:CheckPartnerIdentifierExistsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckPartnerIdentifierExistsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CheckPartnerIdentifierExistsResult" nillable="true" type="q18:CheckPartnerIdentifierExistsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckShopIdentifierExists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q19:CheckShopIdentifierExistsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckShopIdentifierExistsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CheckShopIdentifierExistsResult" nillable="true" type="q20:CheckShopIdentifierExistsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartActivationRobomarketService">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q21:StartActivationRobomarketServiceRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartActivationRobomarketServiceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="StartActivationRobomarketServiceResult" nillable="true" type="q22:StartActivationRobomarketServiceResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RobomarketProfileGroupSave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q23:RobomarketProfileGroupSaveRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RobomarketProfileGroupSaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="RobomarketProfileGroupSaveResult" nillable="true" type="q24:RobomarketProfileGroupSaveResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPartnerToRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q25:AddPartnerToRoleRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPartnerToRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="AddPartnerToRoleResult" nillable="true" type="q26:AddPartnerToRoleResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LegalProfileGroupSave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q27:LegalProfileGroupSaveRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LegalProfileGroupSaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="LegalProfileGroupSaveResult" nillable="true" type="q28:LegalProfileGroupSaveResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClientSettingsProfileGroupSave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q29:ClientSettingsProfileGroupSaveRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClientSettingsProfileGroupSaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="ClientSettingsProfileGroupSaveResult" nillable="true" type="q30:ClientSettingsProfileGroupSaveResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TaxAndPartnerShopSettingsProfileGroupSave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q31:TaxAndPartnerShopSettingsProfileGroupSaveRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TaxAndPartnerShopSettingsProfileGroupSaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="TaxAndPartnerShopSettingsProfileGroupSaveResult" nillable="true" type="q32:TaxAndPartnerShopSettingsProfileGroupSaveResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrepareActivationRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q33:PrepareActivationRequestRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrepareActivationRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="PrepareActivationRequestResult" nillable="true" type="q34:PrepareActivationRequestResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckBankBikExists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q35:CheckBankBikExistsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckBankBikExistsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="CheckBankBikExistsResult" nillable="true" type="q36:CheckBankBikExistsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UploadScan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q37:UploadScanRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UploadScanResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="UploadScanResult" nillable="true" type="q38:UploadScanResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPartnerDocuments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q39:GetPartnerDocumentsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPartnerDocumentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="GetPartnerDocumentsResult" nillable="true" type="q40:GetPartnerDocumentsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindShop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="request" nillable="true" type="q41:FindShopRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindShopResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Requests" minOccurs="0" name="FindShopResult" nillable="true" type="q42:FindShopResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

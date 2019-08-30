@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Robox.PartnerCabinet.PartnerCabinetApi.Interfaces.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="PartnerRole">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="MerchantBN" />
+      <xs:enumeration value="MerchantOff" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PartnerRole" nillable="true" type="tns:PartnerRole" />
+  <xs:simpleType name="PartnerApiServiceErrorCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="InternalError" />
+      <xs:enumeration value="InvalidPhone" />
+      <xs:enumeration value="InvalidEmail" />
+      <xs:enumeration value="InvalidShopName" />
+      <xs:enumeration value="SessionNotFound" />
+      <xs:enumeration value="CreateOutAccountError" />
+      <xs:enumeration value="CreateShopError" />
+      <xs:enumeration value="BNAddressEmpty" />
+      <xs:enumeration value="PartnerCreateError" />
+      <xs:enumeration value="AddToRoleError" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PartnerApiServiceErrorCode" nillable="true" type="tns:PartnerApiServiceErrorCode" />
+  <xs:simpleType name="OutAccountType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Qiwi" />
+      <xs:enumeration value="RIB" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="OutAccountType" nillable="true" type="tns:OutAccountType" />
+  <xs:simpleType name="ShopOwner">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Robox" />
+      <xs:enumeration value="Ocean" />
+      <xs:enumeration value="Platron" />
+      <xs:enumeration value="Qiwi" />
+      <xs:enumeration value="RIB" />
+      <xs:enumeration value="PaySend" />
+      <xs:enumeration value="AsiaKz" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ShopOwner" nillable="true" type="tns:ShopOwner" />
+  <xs:complexType name="AddressData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Flat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="House" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Index" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Korpus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Office" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Region" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Street" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Stroenie" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AddressData" nillable="true" type="tns:AddressData" />
+  <xs:complexType name="TechSettings">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FailUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FailUrlMethod" type="tns:ResultMethod" />
+      <xs:element minOccurs="0" name="HashAlgorithm" type="tns:HashAlgorithm" />
+      <xs:element minOccurs="0" name="Password1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResultMethod" type="tns:ResultMethod" />
+      <xs:element minOccurs="0" name="ResultUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SmsTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SuccessUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SuccessUrlMethod" type="tns:ResultMethod" />
+      <xs:element minOccurs="0" name="TestHashAlgorithm" type="tns:HashAlgorithm" />
+      <xs:element minOccurs="0" name="TestPassword1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TestPassword2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TechSettings" nillable="true" type="tns:TechSettings" />
+  <xs:simpleType name="ResultMethod">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Get" />
+      <xs:enumeration value="Post" />
+      <xs:enumeration value="Email" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ResultMethod" nillable="true" type="tns:ResultMethod" />
+  <xs:simpleType name="HashAlgorithm">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="MD5" />
+      <xs:enumeration value="RIPEMD160" />
+      <xs:enumeration value="SHA1" />
+      <xs:enumeration value="SHA256" />
+      <xs:enumeration value="SHA384" />
+      <xs:enumeration value="SHA512" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="HashAlgorithm" nillable="true" type="tns:HashAlgorithm" />
+  <xs:simpleType name="ShopCreateVerifyResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="DuplicateShopIdentifier" />
+      <xs:enumeration value="DuplicateShopName" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ShopCreateVerifyResult" nillable="true" type="tns:ShopCreateVerifyResult" />
+  <xs:simpleType name="PartnerRoleToAdd">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Robomarket" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PartnerRoleToAdd" nillable="true" type="tns:PartnerRoleToAdd" />
+  <xs:complexType name="Contacts">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Contacts" nillable="true" type="tns:Contacts" />
+  <xs:complexType name="IndividualInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Birth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BirthPlace" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OgrnCertificate" nillable="true" type="tns:OgrnCertificate" />
+      <xs:element minOccurs="0" name="Passport" nillable="true" type="tns:Passport" />
+      <xs:element minOccurs="0" name="RegistrationAddress" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IndividualInfo" nillable="true" type="tns:IndividualInfo" />
+  <xs:complexType name="OgrnCertificate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IssueDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Series" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OgrnCertificate" nillable="true" type="tns:OgrnCertificate" />
+  <xs:complexType name="Passport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IssueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IssuedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Series" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubdivisionCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Passport" nillable="true" type="tns:Passport" />
+  <xs:simpleType name="JurType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="SelfEmployed" />
+      <xs:enumeration value="Legal" />
+      <xs:enumeration value="Credit" />
+      <xs:enumeration value="Charitable" />
+      <xs:enumeration value="Budget" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="JurType" nillable="true" type="tns:JurType" />
+  <xs:complexType name="SignerInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DocumentNameGenitif" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentType" type="tns:ConfirmDocumentType" />
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FullNameGenitif" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Position" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SignerInfo" nillable="true" type="tns:SignerInfo" />
+  <xs:simpleType name="ConfirmDocumentType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Ustav" />
+      <xs:enumeration value="Doverennost" />
+      <xs:enumeration value="Dogovor" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ConfirmDocumentType" nillable="true" type="tns:ConfirmDocumentType" />
+</xs:schema>

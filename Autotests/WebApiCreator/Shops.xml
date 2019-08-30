@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Server="192.168.2.1" Database="Robox" Login="sa" Password="Qwerty123456" IntegratedSecurity="false" AutoId="409583B3-01DF-4A7B-9842-60C6D88D2690">
+  <Partners>
+    <LegalPartner Name="Технический партнер Robomarket (PaySend)" Identifier="RobomarketPaySend" Login="admin" Password="Qwerty123456">
+      <Info>
+        <EMail>testlab@qaserver.lan</EMail>
+        <Phone>+78951234567</Phone>
+        <BIK>044525225</BIK>
+        <Account>40703810638000110216</Account>
+        <INN>7145168000</INN>
+        <KPP>123456789</KPP>
+        <OGRN>012345678901</OGRN>
+      </Info>
+      <Shops>
+        <Shop Name="Технический магазин Robomarket (PaySend)" Identifier="RobomarketPaySend" Owner="PaySend">
+          <Password1>Qwerty123456</Password1>
+          <Password2>Qwerty654321</Password2>
+          <SiteUrl>https://robomarket.test.qa/</SiteUrl>
+          <ResultUrl>https://rmservices.test.qa/PaymentListener/Api/Payment/PaySend</ResultUrl>
+          <ResultMethod>POST</ResultMethod>
+          <SuccessUrl>https://robomarket.test.qa/Success</SuccessUrl>
+          <SuccessMethod>GET</SuccessMethod>
+          <FailUrl>https://robomarket.test.qa/Fail</FailUrl>
+          <FailMethod>GET</FailMethod>
+          <Hash>MD5</Hash>
+          <Currencies>
+            <Currency>BankCardPSR</Currency>
+          </Currencies>
+          <Robomarket Enabled="true" ApproveUrl="https://rmservices.test.qa/PaymentListener/api/approvesplit" CompletedUrl="https://rmservices.test.qa/PaymentListener/api/splitcompleted" />
+        </Shop>
+        <Shop Name="Технический магазин Robomarket (PaySend)" Identifier="RobomarketPaySend" Owner="PaySend">
+          <Password1>Qwerty123456</Password1>
+          <Password2>Qwerty654321</Password2>
+          <SiteUrl>https://robomarket.test.qa/</SiteUrl>
+          <ResultUrl>https://rmservices.test.qa/PaymentListener/Api/Payment/PaySend</ResultUrl>
+          <ResultMethod>POST</ResultMethod>
+          <SuccessUrl>https://robomarket.test.qa/Success</SuccessUrl>
+          <SuccessMethod>GET</SuccessMethod>
+          <FailUrl>https://robomarket.test.qa/Fail</FailUrl>
+          <FailMethod>GET</FailMethod>
+          <Hash>MD5</Hash>
+          <Currencies>
+            <Currency>BankCardPSR</Currency>
+          </Currencies>
+          <Robomarket Enabled="true" ApproveUrl="https://rmservices.test.qa/PaymentListener/api/approvesplit" CompletedUrl="https://rmservices.test.qa/PaymentListener/api/splitcompleted" />
+        </Shop>
+        <Shop Name="Технический магазин Robomarket (PaySend)" Identifier="RobomarketPaySend" Owner="PaySend">
+          <Password1>Qwerty123456</Password1>
+          <Password2>Qwerty654321</Password2>
+          <SiteUrl>https://robomarket.test.qa/</SiteUrl>
+          <ResultUrl>https://rmservices.test.qa/PaymentListener/Api/Payment/PaySend</ResultUrl>
+          <ResultMethod>POST</ResultMethod>
+          <SuccessUrl>https://robomarket.test.qa/Success</SuccessUrl>
+          <SuccessMethod>GET</SuccessMethod>
+          <FailUrl>https://robomarket.test.qa/Fail</FailUrl>
+          <FailMethod>GET</FailMethod>
+          <Hash>MD5</Hash>
+          <Currencies>
+            <Currency>BankCardPSR</Currency>
+          </Currencies>
+          <Robomarket Enabled="true" ApproveUrl="https://rmservices.test.qa/PaymentListener/api/approvesplit" CompletedUrl="https://rmservices.test.qa/PaymentListener/api/splitcompleted" />
+        </Shop>
+      </Shops>
+    </LegalPartner>
+
+  <!--  <LegalPartner Name="Технический партнер Robomarket (Qiwi)" Identifier="RobomarketQiwi" Login="admin" Password="Qwerty123456">
+      <Info>
+        <EMail>testlab@qaserver.lan</EMail>
+        <Phone>+78951234567</Phone>
+        <BIK>044525225</BIK>
+        <Account>40703810638000110216</Account>
+        <INN>7145168000</INN>
+        <KPP>123456789</KPP>
+        <OGRN>012345678901</OGRN>
+      </Info>
+      <Shops>
+
+        <Shop Name="Технический магазин Robomarket (Qiwi)" Identifier="RobomarketQiwi" Owner="Qiwi">
+          <Password1>Qwerty123456</Password1>
+          <Password2>Qwerty654321</Password2>
+          <SiteUrl>https://robomarket.test.qa/</SiteUrl>
+          <ResultUrl>https://rmservices.test.qa/PaymentListener/Api/Payment/Qiwi</ResultUrl>
+          <ResultMethod>POST</ResultMethod>
+          <SuccessUrl>https://robomarket.test.qa/Success</SuccessUrl>
+          <SuccessMethod>GET</SuccessMethod>
+          <FailUrl>https://robomarket.test.qa/Fail</FailUrl>
+          <FailMethod>GET</FailMethod>
+          <Hash>MD5</Hash>
+          <Currencies>
+            <Currency>CypixTatTelecomQiwi</Currency>
+            <Currency>QCardR</Currency>
+          </Currencies>
+          <Robomarket Enabled="true" ApproveUrl="https://rmservices.test.qa/PaymentListener/api/approvesplit" CompletedUrl="https://rmservices.test.qa/PaymentListener/api/splitcompleted" />
+        </Shop>
+
+      </Shops>
+    </LegalPartner>
+
+    <LegalPartner Name="Технический партнер Robomarket (RIB)" Identifier="RobomarketRIB" Login="admin" Password="Qwerty123456">
+      <Info>
+        <EMail>testlab@qaserver.lan</EMail>
+        <Phone>+78951234567</Phone>
+        <BIK>044525225</BIK>
+        <Account>40703810638000110216</Account>
+        <INN>7145168000</INN>
+        <KPP>123456789</KPP>
+        <OGRN>012345678901</OGRN>
+      </Info>
+      <Shops>
+
+        <Shop Name="Технический магазин Robomarket (RIB)" Identifier="RobomarketRIB" Owner="RIB">
+          <Password1>Qwerty123456</Password1>
+          <Password2>Qwerty654321</Password2>
+          <SiteUrl>https://robomarket.test.qa/</SiteUrl>
+          <ResultUrl>https://rmservices.test.qa/PaymentListener/Api/Payment/RIB</ResultUrl>
+          <ResultMethod>POST</ResultMethod>
+          <SuccessUrl>https://robomarket.test.qa/Success</SuccessUrl>
+          <SuccessMethod>GET</SuccessMethod>
+          <FailUrl>https://robomarket.test.qa/Fail</FailUrl>
+          <FailMethod>GET</FailMethod>
+          <Hash>MD5</Hash>
+          <Currencies>
+            <Currency>ElecsnetWalletRIBR</Currency>
+            <Currency>BANKOCEAN3R</Currency>
+          </Currencies>
+          <Robomarket Enabled="true" ApproveUrl="https://rmservices.test.qa/PaymentListener/api/approvesplit" CompletedUrl="https://rmservices.test.qa/PaymentListener/api/splitcompleted" />
+        </Shop>
+
+      </Shops>
+    </LegalPartner>-->
+  </Partners>
+</Root>
