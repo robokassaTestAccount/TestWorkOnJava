@@ -13,11 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerHelper", "LoggerHelpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPage", "WebPage\WebPage.csproj", "{A193A1A6-1B75-42FF-B5E3-FF7785E877F2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A78AD0F-3B01-48F0-ADA5-D28876406ED5}"
-	ProjectSection(SolutionItems) = preProject
-		ShopBatch\Shops.xsd = ShopBatch\Shops.xsd
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAutotests", "ApiAutotests\ApiAutotests.csproj", "{E2700C14-A70B-48C2-A49D-93C8DF1F0AA5}"
 EndProject
 Global
