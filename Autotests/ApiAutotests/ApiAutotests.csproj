@@ -47,8 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HelperStruct.cs" />
     <Compile Include="PostsAndFunction.cs" />
     <Compile Include="BasicActions.cs" />
+    <Compile Include="StandartizationApi.cs" />
     <Compile Include="SuiteBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

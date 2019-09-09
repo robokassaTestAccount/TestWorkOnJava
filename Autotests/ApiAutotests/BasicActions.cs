@@ -1,4 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.IO;
+using System.Net;
+using System.Net.Http;
+using System.Text;
 
 namespace ApiAutotests
 {
@@ -32,6 +36,18 @@ namespace ApiAutotests
                 { 11, "Осень" },
                 { 12, "Зима" },
             };
+        }
+
+        public HelperStruct.ResponceInfo StandartizeInfo(HelperStruct.RequestInfo info)
+        {
+            StandartizationApi standartization = new StandartizationApi(info);
+            return standartization.SendReq();
+        }
+
+        public string SendErrorReq(HelperStruct.RequestInfo info)
+        {
+            StandartizationApi standartization = new StandartizationApi(info);
+            return standartization.SendErrorReq();
         }
     }
 }
